@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 
 import Model from "./components/Model";
 import OverLay from "./components/OverLay";
@@ -11,11 +11,11 @@ function App() {
   const scroll = useRef(0);
   const [isLoading, setIsLoading] = useState(true);
 
-    const handleLoading = (value) => {
+    const handleLoading = useCallback((value) => {
       if (value) {
         setIsLoading(false);
       }
-    }
+    }, []);
 
     useEffect(() => {
       console.log('isLoading', isLoading)
