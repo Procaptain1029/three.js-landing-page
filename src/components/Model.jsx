@@ -22,7 +22,7 @@ const Model = ({scroll, handleLoading}) => {
         if (nodes_white && materials_white && nodes_black && materials_black && nodes_computer && materials_computer) {
             handleLoading(true);
         }
-    }, [nodes_white, materials_white, nodes_black, materials_black, nodes_computer, materials_computer]);
+    }, [nodes_white, materials_white, nodes_black, materials_black, nodes_computer, materials_computer, handleLoading]);
     
     return(
         <>
