@@ -40,10 +40,10 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
                     NickName: Procaptain 
                 </p>
                 <div>
-                    <a className="flex pointer-events-auto m-15" target="blank" href="https://github.com/Goldendragon1029">
+                    <a className="flex pointer-events-auto m-15" target="blank" href="https://github.com/procaptain1029">
                         <img src="logos/github.svg" alt="github" width={40} height={40}/>
                         <p className="m-4 ml-20 text-20">
-                            https://github.com/milosmatovicup
+                            https://github.com/procaptain1029
                         </p>
                     </a>
                 </div>
